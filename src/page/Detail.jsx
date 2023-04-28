@@ -40,7 +40,7 @@ const Detail = () => {
       </div>
       <div className=" flex mx-5 items-center">
         Watch on Youtube
-        <Link className=" ml-4 text-3xl text-red-500" to={"https://www.youtube.com/watch?v=xvPR2Tfw5k0"}><AiFillYoutube/></Link>
+        <Link className=" ml-4 text-3xl text-red-500" to={meal.strYoutube}><AiFillYoutube/></Link>
       </div>
     </div>
     </div>)}
